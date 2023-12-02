@@ -24,8 +24,23 @@ const Home = () => {
     <>
       <SeoMeta />
       <section className="section pt-14">
+        
         <div className="container">
           <div className="row justify-center">
+          {banner.image && (//hero image
+              <div 
+              className="col-12"
+              >
+                <ImageFallback
+                  src={banner.image}
+                  className="mx-auto"
+                  width="800"
+                  height="420"
+                  alt="banner image"
+                  priority
+                />
+              </div>
+            )}
             <div className="mb-16 text-center lg:col-7">
               <h1
                 className="mb-4"
@@ -41,7 +56,7 @@ const Home = () => {
                 </a>
               )}
             </div>
-            {banner.image && (
+            {/* {banner.image && (
               <div className="col-12">
                 <ImageFallback
                   src={banner.image}
@@ -52,7 +67,7 @@ const Home = () => {
                   priority
                 />
               </div>
-            )}
+            )} */}
           </div>
         </div>
       </section>

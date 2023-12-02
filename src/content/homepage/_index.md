@@ -1,13 +1,17 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Next Project"
-  content: "Nextplate is a free starter template built with Next and TailwindCSS, providing everything you need to jumpstart your Next project and save valuable time."
-  image: "/images/banner.png"
+  title: "BMW track car builds and preparation"
+  content: "Full road car to race car BMW builds. With Climax Motorsport you're not just a customer, you're part of the team"
+  # image: "/images/banner.png"
+  # image: "https://img.pistonheads.com/Fullsize/volkswagen/golf-r32-r/r32/volkswagen-golf-r32-r-r32-S4739914-1.jpg?resize=600"
+
+  image: "/images/fullgarage.jpg"
   button:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/nextplate"
+    label: "Meet the team"
+    # link: "https://github.com/zeon-studio/nextplate"
+    link: "/about"
 
 # Features
 features:
@@ -27,7 +31,8 @@ features:
       link: "#"
 
   - title: "Discover the Key Features Of Next"
-    image: "/images/service-2.png"
+    image: "https://www.driving.co.uk/wp-content/uploads/sites/5/2022/02/Clarkson-BMW-M4-review.jpg"
+    # image: "/images/service-2.png"
     content: "Next is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
     bulletpoints:
       - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
